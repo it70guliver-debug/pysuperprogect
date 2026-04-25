@@ -22,7 +22,7 @@ jobs: #Что будет выполняться
 
   my_deploy:
       runs-on: ubuntu-latest
-       
-       steps: # шаги, команды
-   - name: Print Hello Massege # Имя шага
+      
+      steps: 
+         - name: Print Hello Massege
      run : echo "Hello world from Deploy job"
