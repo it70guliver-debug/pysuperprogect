@@ -12,13 +12,13 @@ on:
   push:
     branches: [ "main" ]
  
-jobs: #Что будет выполняться
-  my_testing: #Название Jobs
-   runs-on: ubuntu-latest #где будет выполняться
+jobs:
+  my_testing:
+   runs-on: ubuntu-latest 
 
-   steps: # шаги, команды
-   - name: Print Hello Massege # Имя шага
-     run : echo "Hello world from testing job"  # печатаем надпись 
+   steps:
+   - name: Print Hello Massege
+     run : echo "Hello world from testing job" 
 
   my_deploy:
       runs-on: ubuntu-latest
